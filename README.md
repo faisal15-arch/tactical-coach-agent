@@ -317,6 +317,22 @@ Deploy this repository as two Railway services from the same GitHub repository:
 The frontend proxy keeps API requests and authentication cookies on the frontend
 origin. Redeploy the backend after setting the final frontend domain.
 
+## Deploying to Render
+
+Render can use the same two-service layout:
+
+1. Create a PostgreSQL database and a Redis-compatible Key Value service.
+2. Create a backend Web Service from this repository with root directory
+  `tactical_coach_agent`. The service uses its Dockerfile.
+3. Create a frontend Web Service from this repository with root directory
+  `tactical-coach-frontend`. The service uses its Dockerfile.
+4. Set the backend variables `DATABASE_URL`, `REDIS_URL`,
+  `AUTH_COOKIE_SECURE=true`, `AUTH_COOKIE_SAMESITE=lax`, and
+  `FRONTEND_ORIGINS=https://<frontend-domain>`.
+5. Set the frontend variable `BACKEND_URL=https://<backend-domain>`.
+6. Generate public domains for both services and redeploy the backend after
+  setting the final frontend origin.
+
 ## Limitations
 
 - Cricbuzz and Cricmetric website structures can change because some collected data comes from undocumented website payloads or internal endpoints.
