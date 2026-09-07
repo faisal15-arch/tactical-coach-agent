@@ -1,0 +1,130 @@
+.live-matches {
+  width: min(1100px, 100%);
+  margin: 24px auto 0;
+  overflow-y: auto;
+}
+
+.live-matches__header {
+  margin-bottom: 24px;
+}
+
+.live-matches__eyebrow {
+  margin: 0 0 6px;
+  color: var(--accent-alert);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.live-matches__header h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 30px;
+}
+
+.live-matches__header > p:last-child {
+  margin: 8px 0 0;
+  color: var(--text-muted);
+}
+
+.live-matches__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  padding-bottom: 24px;
+}
+
+.live-match {
+  padding: 18px;
+  background: #101a14;
+  border: 1px solid #1f3327;
+  border-radius: 8px;
+}
+
+.live-match__topline,
+.live-match__team,
+.live-match__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.live-match__topline {
+  color: var(--text-muted);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.live-match__state {
+  color: var(--accent-alert);
+}
+
+.live-match h3 {
+  margin: 10px 0 18px;
+  font-size: 16px;
+}
+
+.live-match__team {
+  padding: 10px 0;
+  border-top: 1px solid #1f3327;
+}
+
+.live-match__team span {
+  color: #e8b93f;
+  font-variant-numeric: tabular-nums;
+}
+
+.live-match__status {
+  min-height: 38px;
+  margin: 12px 0;
+  color: #b9c7bf;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.live-match__footer {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.live-match__details,
+.live-matches__message button {
+  color: #e8b93f;
+}
+
+.live-match__details {
+  padding: 0;
+  font: inherit;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.live-match__details:hover {
+  text-decoration: underline;
+}
+
+.live-matches__message {
+  margin: 60px 0;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.live-matches__message--error {
+  color: #e88f6b;
+}
+
+.live-matches__message button {
+  padding: 8px 14px;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .live-matches__grid {
+    grid-template-columns: 1fr;
+  }
+}

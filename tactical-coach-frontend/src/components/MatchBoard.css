@@ -1,0 +1,301 @@
+.match-board {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-line);
+  border-radius: var(--radius);
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.match-board__header {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.match-board__eyebrow {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+}
+
+.match-board__empty {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.match-board__pressure {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px 0 20px;
+  border-bottom: 1px solid var(--border-line);
+  margin-bottom: 16px;
+}
+
+
+
+.match-board__pressure-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.match-board__pressure-value {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.match-board__momentum {
+  padding: 14px 0 18px;
+  border-bottom: 1px solid var(--border-line);
+  margin-bottom: 16px;
+}
+
+.match-board__momentum-label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.match-board__momentum-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.match-board__momentum-value {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.match-board__momentum-text {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.match-board__section {
+  margin-bottom: 20px;
+}
+
+.match-board__section-title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.match-board__section-hint {
+  display: block;
+  font-size: 11px;
+  color: var(--text-muted);
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.match-board__projections {
+  padding: 12px;
+  border: 1px solid rgba(232, 185, 63, 0.22);
+  border-radius: 8px;
+  background: rgba(232, 185, 63, 0.035);
+}
+
+.match-board__projection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+}
+
+.match-board__projection-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 9px;
+  border: 1px solid rgba(151, 190, 170, 0.12);
+  border-radius: 6px;
+  background: rgba(3, 12, 9, 0.35);
+}
+
+.match-board__projection-card strong {
+  color: var(--accent-flood);
+  font-family: var(--font-display);
+  font-size: 22px;
+}
+
+.match-board__projection-rate,
+.match-board__projection-target {
+  color: var(--text-muted);
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 9px;
+}
+
+.match-board__projection-target.is-reached {
+  color: var(--accent-pitch);
+}
+
+.match-board__projection-target.is-short {
+  color: var(--accent-alert);
+}
+
+.match-board__projection-note {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.match-board__bowler-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 13px;
+  border-bottom: 1px solid var(--border-line);
+}
+
+.match-board__bowler-score {
+  font-family: var(--font-display);
+  color: var(--accent-flood);
+  font-weight: 700;
+}
+
+.match-board__bowler-score--form {
+  color: var(--accent-pitch);
+}
+
+/* ================= append to the END of MatchBoard.css ================= */
+
+.match-board__clock {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 11px;
+  color: #e8b93f;
+}
+
+.meter {
+  position: relative;
+  height: 4px;
+  margin: 6px 0 14px;
+  overflow: hidden;
+  background: #1f3327;
+  border-radius: 2px;
+}
+
+.meter__fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.25s ease;
+}
+
+.meter--signed {
+  overflow: visible;
+}
+
+.meter__zero {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  left: 50%;
+  width: 1px;
+  background: #3c5346;
+}
+
+.meter__fill--signed {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.match-board__excluded-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 7px 0;
+  font-size: 13px;
+  color: #7d9186;
+  border-bottom: 1px solid rgba(31, 51, 39, 0.5);
+}
+
+.match-board__excluded-row:last-child {
+  border-bottom: none;
+}
+
+.match-board__excluded-reason {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  text-align: right;
+  color: #5d6f65;
+}
+
+/* ============ append to the END of MatchBoard.css ============ */
+
+.match-board__teams {
+  margin: 0 0 14px;
+  font-size: 12px;
+  color: #7d9186;
+}
+
+.match-board__sublabel {
+  margin: 2px 0 0;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #7d9186;
+}
+
+.match-board__note {
+  margin: 8px 0 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #7d9186;
+}
+
+.match-board__note--par {
+  padding: 7px 10px;
+  margin-bottom: 14px;
+  color: #b9c7bf;
+  background: rgba(31, 51, 39, 0.4);
+  border-left: 2px solid #e8b93f;
+  border-radius: 0 4px 4px 0;
+}
+
+.match-board__note--stale {
+  margin: 6px 0 10px;
+  color: #e8b93f;
+}
+
+/* "MATCH BOARD1st innings" had no gap between the label and the clock. */
+.match-board__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 12px;
+}
+ 
+.tag {
+  display: inline-block;
+  padding: 1px 6px;
+  margin-left: 7px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: 0.06em;
+  vertical-align: middle;
+  border-radius: 3px;
+}
+ 
+/* A provisional rating is partly the pool average. It has to be legible
+   next to the number it qualifies, not hidden in a footnote. */
+.tag--provisional {
+  color: #e8b93f;
+  border: 1px solid rgba(232, 185, 63, 0.4);
+}
+ 

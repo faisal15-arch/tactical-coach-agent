@@ -1,0 +1,99 @@
+.batcard {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 8px 24px 48px;
+}
+
+.batcard__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.batcard__eyebrow {
+  margin: 0 0 5px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #5fd68a;
+}
+
+.batcard__title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #e6ece8;
+}
+
+.batcard__meta,
+.batcard__status {
+  color: #7d9186;
+}
+
+.batcard__meta {
+  margin: 5px 0 0;
+  font-size: 12px;
+}
+
+.batcard__back {
+  padding: 7px 13px;
+  font-size: 12px;
+  color: #b9c7bf;
+  background: transparent;
+  border: 1px solid #1f3327;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.batcard__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.batcard__table th,
+.batcard__table td {
+  padding: 10px;
+  text-align: right;
+  border-bottom: 1px solid rgba(31, 51, 39, 0.5);
+}
+
+.batcard__table th {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7d9186;
+}
+
+.batcard__table th:first-child,
+.batcard__table td:first-child {
+  text-align: left;
+}
+
+.batcard__batter,
+.batcard__status {
+  display: block;
+}
+
+.batcard__batter,
+.batcard__runs {
+  font-weight: 600;
+  color: #e6ece8;
+}
+
+.batcard__status {
+  margin-top: 4px;
+  font-size: 10px;
+}
+
+.batcard__empty,
+.batcard__error {
+  padding: 24px 0;
+  text-align: center;
+  color: #7d9186;
+}

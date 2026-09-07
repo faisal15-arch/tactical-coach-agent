@@ -1,0 +1,128 @@
+.profiles-page {
+  flex: 1;
+  min-height: 0;
+  width: min(1040px, 100%);
+  padding: 8px 24px 48px;
+  margin: 0 auto;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.profiles-page__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.profiles-page__eyebrow,
+.profiles-page h2,
+.profiles-page__meta,
+.profiles-page__note,
+.profiles-page__unavailable {
+  margin-top: 0;
+}
+
+.profiles-page__eyebrow {
+  margin-bottom: 5px;
+  color: var(--accent-mint);
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.profiles-page h2 {
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+.profiles-page__meta,
+.profiles-page__note,
+.profiles-page__unavailable,
+.profiles-page__empty {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.profiles-page__head button {
+  padding: 7px 13px;
+  color: var(--text-secondary);
+  background: transparent;
+  border: 1px solid var(--border-line);
+  border-radius: 7px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.profiles-page__note {
+  padding: 10px 12px;
+  border-left: 2px solid var(--accent-flood);
+  background: rgba(244, 201, 93, 0.045);
+}
+
+.profiles-page__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.profiles-page__card {
+  padding: 16px;
+  background: linear-gradient(145deg, rgba(19, 43, 35, 0.92), rgba(10, 27, 21, 0.96));
+  border: 1px solid var(--border-line);
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+}
+
+.profiles-page__card h3 {
+  margin: 0 0 14px;
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.profiles-page__metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.profiles-page__metrics span,
+.profiles-page__metrics strong {
+  display: block;
+}
+
+.profiles-page__metrics span {
+  margin-bottom: 4px;
+  color: var(--text-muted);
+  font-size: 9px;
+}
+
+.profiles-page__metrics strong {
+  color: var(--accent-flood);
+  font-family: var(--font-display);
+  font-size: 15px;
+}
+
+.profiles-page__empty {
+  padding: 30px 0;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .profiles-page__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .profiles-page {
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+
+  .profiles-page__metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

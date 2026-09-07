@@ -1,0 +1,282 @@
+.matchups-card {
+  flex: 1;
+  min-height: 0;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 8px 24px 48px;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.matchups-card__head,
+.matchups-card__section-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.matchups-card__head {
+  margin-bottom: 22px;
+}
+
+.matchups-card__eyebrow {
+  margin: 0 0 5px;
+  color: #5fd68a;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.matchups-card h2,
+.matchups-card h3,
+.matchups-card p {
+  margin-top: 0;
+}
+
+.matchups-card h2 {
+  margin-bottom: 5px;
+  color: #e6ece8;
+  font-size: 22px;
+}
+
+.matchups-card h3 {
+  margin-bottom: 4px;
+  color: #e6ece8;
+  font-size: 14px;
+}
+
+.matchups-card__meta,
+.matchups-card__section-head p,
+.matchups-card__history > p {
+  color: #7d9186;
+  font-size: 11px;
+}
+
+.matchups-card__head button {
+  padding: 7px 13px;
+  color: #b9c7bf;
+  background: transparent;
+  border: 1px solid #1f3327;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.matchups-card__current,
+.matchups-card__career,
+.matchups-card__history,
+.matchups-card__types {
+  margin-bottom: 20px;
+  padding: 18px;
+  border: 1px solid #1f3327;
+  border-radius: 9px;
+  background: rgba(3, 12, 9, 0.25);
+}
+
+.matchups-card__sections {
+  display: flex;
+  flex-direction: column;
+}
+
+.matchups-card__career {
+  order: 1;
+}
+
+.matchups-card__current {
+  order: 2;
+}
+
+.matchups-card__history {
+  order: 3;
+}
+
+.matchups-card__types {
+  order: 4;
+}
+
+.matchups-card__source {
+  color: #7d9186;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.matchups-card__type-batters {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.matchups-card__type-batter {
+  padding: 14px;
+  border: 1px solid rgba(95, 214, 138, 0.14);
+  border-radius: 7px;
+  background: rgba(95, 214, 138, 0.025);
+}
+
+.matchups-card__type-batter h4 {
+  margin: 0 0 10px;
+  color: #e6ece8;
+  font-size: 13px;
+}
+
+.matchups-card__type-table th:last-child,
+.matchups-card__type-table td:last-child {
+  min-width: 132px;
+  text-align: left;
+}
+
+.matchups-card__assessment {
+  display: inline-block;
+  padding: 3px 7px;
+  border: 1px solid #304b3a;
+  border-radius: 999px;
+  color: #b9c7bf;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.matchups-card__assessment.is-strong {
+  color: #6ce89a;
+  border-color: rgba(108, 232, 154, 0.4);
+}
+
+.matchups-card__assessment.is-weak {
+  color: #ff8f82;
+  border-color: rgba(255, 143, 130, 0.4);
+}
+
+.matchups-card__assessment.is-limited-sample,
+.matchups-card__assessment.is-no-sample {
+  color: #e8b93f;
+  border-color: rgba(232, 185, 63, 0.35);
+}
+
+.matchups-card__type-table small {
+  display: block;
+  margin-top: 4px;
+  color: #61766a;
+  font-size: 8px;
+  text-transform: capitalize;
+}
+
+.matchups-card__footnote {
+  margin: 12px 0 0;
+  color: #61766a;
+  font-size: 9px;
+}
+
+.matchups-card__spell {
+  color: #e8b93f;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.matchups-card__duels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.matchups-card__duel {
+  padding: 14px;
+  border: 1px solid rgba(95, 214, 138, 0.2);
+  border-radius: 7px;
+  background: rgba(95, 214, 138, 0.035);
+}
+
+.matchups-card__batter,
+.matchups-card__duel strong {
+  display: block;
+}
+
+.matchups-card__batter {
+  color: #b9c7bf;
+  font-size: 12px;
+}
+
+.matchups-card__versus {
+  display: block;
+  margin-top: 3px;
+  color: #5fd68a;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+}
+
+.matchups-card__duel strong {
+  margin: 8px 0;
+  color: #e8b93f;
+  font-size: 22px;
+}
+
+.matchups-card__numbers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: #7d9186;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+}
+
+.matchups-card__duel-empty {
+  margin: 14px 0 0;
+  color: #7d9186;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.matchups-card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.matchups-card th,
+.matchups-card td {
+  padding: 9px;
+  text-align: right;
+  border-bottom: 1px solid rgba(31, 51, 39, 0.5);
+}
+
+.matchups-card th {
+  color: #7d9186;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.matchups-card th:first-child,
+.matchups-card th:nth-child(2),
+.matchups-card td:first-child,
+.matchups-card td:nth-child(2) {
+  text-align: left;
+}
+
+.matchups-card td {
+  color: #b9c7bf;
+  font-size: 12px;
+}
+
+.matchups-card__empty {
+  padding: 18px 0;
+  color: #7d9186;
+  text-align: center;
+}
+
+@media (max-width: 650px) {
+  .matchups-card__duels {
+    grid-template-columns: 1fr;
+  }
+
+  .matchups-card__section-head {
+    flex-direction: column;
+  }
+
+  .matchups-card__table-wrap {
+    overflow-x: auto;
+  }
+}

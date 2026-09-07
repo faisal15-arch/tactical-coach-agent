@@ -1,0 +1,234 @@
+.strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 0;
+  margin: 0 0 14px;
+  overflow: hidden;
+  background: rgba(15, 26, 20, 0.75);
+  border: 1px solid #1f3327;
+  border-radius: 8px;
+}
+
+.strip--loading,
+.strip--error {
+  padding: 14px 20px;
+  font-size: 12px;
+  color: #7d9186;
+}
+
+.strip--error {
+  color: #e88f6b;
+}
+
+.strip__block {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 13px 22px;
+  border-right: 1px solid #1f3327;
+}
+
+/* The one number the coach is actually tracking sits on a slightly
+   raised panel, so it reads before anything else in the row. */
+.strip__block--key {
+  background: rgba(232, 185, 63, 0.06);
+}
+
+.strip__block--crease {
+  flex: 1;
+  align-items: flex-end;
+  border-right: none;
+}
+
+.strip__label {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #5d6f65;
+}
+
+.strip__value {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.strip__runs {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1;
+  color: #e6ece8;
+}
+
+.strip__runs--key {
+  color: #e8b93f;
+}
+
+.strip__runs--key.is-ahead {
+  color: #5fd68a;
+}
+
+.strip__runs--key.is-behind {
+  color: #e8b93f;
+}
+
+.strip__par-status {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.strip__par-status.is-ahead {
+  color: #5fd68a;
+}
+
+.strip__par-status.is-behind {
+  color: #e8b93f;
+}
+
+.strip__data-badge {
+  margin-left: 7px;
+  padding: 2px 5px;
+  border: 1px solid rgba(95, 214, 138, 0.45);
+  border-radius: 999px;
+  color: #5fd68a;
+  font-size: 8px;
+  letter-spacing: 0.08em;
+}
+
+.strip__method {
+  color: #9db0a5;
+  font-size: 9px;
+  line-height: 1.3;
+}
+
+.strip__block--unavailable {
+  background: rgba(125, 145, 134, 0.04);
+}
+
+.strip__par-unavailable {
+  color: #a9b8b0;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.strip__sep {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 20px;
+  color: #3c5346;
+}
+
+.strip__wkts {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1;
+  color: #b9c7bf;
+}
+
+.strip__sub {
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  color: #7d9186;
+  white-space: nowrap;
+}
+
+.strip__bowler-figures {
+  color: #a9b8b0;
+}
+
+.strip__done {
+  font-size: 14px;
+  color: #5fd68a;
+}
+
+.strip__block--final-score {
+  min-width: 205px;
+}
+
+.strip__final-score {
+  color: #e6ece8;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.strip__block--result {
+  flex: 1;
+  min-width: 280px;
+  border-right: none;
+  background: rgba(95, 214, 138, 0.055);
+}
+
+.strip__batsmen {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.strip__batsman {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 2px 8px;
+  font-size: 14px;
+  color: #7d9186;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.strip__batsman-name {
+  white-space: nowrap;
+}
+
+.strip__batsman-figures {
+  color: #e6ece8;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.strip__batsman-figures span {
+  color: #7d9186;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/* Which batter is on strike changes what the next ball means, so it is
+   marked with a box and an asterisk, not just a shade of grey. */
+.strip__batsman.is-strike {
+  color: #e6ece8;
+  background: rgba(232, 185, 63, 0.1);
+  border-color: rgba(232, 185, 63, 0.35);
+}
+
+.strip__star {
+  margin-left: 3px;
+  color: #e8b93f;
+}
+
+@media (max-width: 900px) {
+  .strip__block {
+    flex: 1 1 100%;
+    align-items: flex-start;
+    border-right: none;
+    border-bottom: 1px solid #1f3327;
+  }
+
+  .strip__block--crease {
+    align-items: flex-start;
+    border-bottom: none;
+  }
+
+  .strip__batsmen {
+    flex-wrap: wrap;
+  }
+}

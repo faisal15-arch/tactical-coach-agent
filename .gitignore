@@ -1,0 +1,19 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime logs
+*.log
+
+# Local tooling
+.vscode/
+.idea/
+*.local

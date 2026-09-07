@@ -1,0 +1,2807 @@
+{
+  "A Zampa": {
+    "base_skill": 72,
+    "career": {
+      "economy": 7.71,
+      "matches": 7,
+      "overs": 28.0,
+      "raw_skill": 69,
+      "runs": 216,
+      "strike_rate": 33.6,
+      "wickets": 5
+    },
+    "confidence": 0.45,
+    "provisional": true,
+    "style": null
+  },
+  "AD Russell": {
+    "base_skill": 75,
+    "career": {
+      "economy": 8.73,
+      "matches": 17,
+      "overs": 55.3,
+      "raw_skill": 75,
+      "runs": 483,
+      "strike_rate": 15.8,
+      "wickets": 21
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "AJ Hosein": {
+    "base_skill": 77,
+    "career": {
+      "economy": 8.11,
+      "matches": 14,
+      "overs": 55.0,
+      "raw_skill": 77,
+      "runs": 446,
+      "strike_rate": 18.3,
+      "wickets": 18
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "AJ Turner": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.15,
+      "matches": 7,
+      "overs": 13.0,
+      "raw_skill": 71,
+      "runs": 106,
+      "strike_rate": 26.0,
+      "wickets": 3
+    },
+    "confidence": 0.07,
+    "provisional": true,
+    "style": null
+  },
+  "AJ Tye": {
+    "base_skill": 71,
+    "career": {
+      "economy": 10.67,
+      "matches": 4,
+      "overs": 15.0,
+      "raw_skill": 47,
+      "runs": 160,
+      "strike_rate": 90.0,
+      "wickets": 1
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "AM Hardie": {
+    "base_skill": 76,
+    "career": {
+      "economy": 7.42,
+      "matches": 6,
+      "overs": 19.0,
+      "raw_skill": 85,
+      "runs": 141,
+      "strike_rate": 10.4,
+      "wickets": 11
+    },
+    "confidence": 0.23,
+    "provisional": true,
+    "style": null
+  },
+  "AS Joseph": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.29,
+      "matches": 17,
+      "overs": 63.5,
+      "raw_skill": 70,
+      "runs": 590,
+      "strike_rate": 19.1,
+      "wickets": 20
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Aamer Jamal": {
+    "base_skill": 63,
+    "career": {
+      "economy": 10.36,
+      "matches": 26,
+      "overs": 75.0,
+      "raw_skill": 63,
+      "runs": 777,
+      "strike_rate": 19.6,
+      "wickets": 23
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Aamer Yamin": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.93,
+      "matches": 32,
+      "overs": 93.3,
+      "raw_skill": 69,
+      "runs": 833,
+      "strike_rate": 23.3,
+      "wickets": 24
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Abbas Afridi": {
+    "base_skill": 71,
+    "career": {
+      "economy": 9.7,
+      "matches": 48,
+      "overs": 154.7,
+      "raw_skill": 71,
+      "runs": 1500,
+      "strike_rate": 13.6,
+      "wickets": 68
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Abrar Ahmed": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.85,
+      "matches": 39,
+      "overs": 148.5,
+      "raw_skill": 78,
+      "runs": 1166,
+      "strike_rate": 18.6,
+      "wickets": 48
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Agha Salman": {
+    "base_skill": 70,
+    "career": {
+      "economy": 8.27,
+      "matches": 20,
+      "overs": 35.2,
+      "raw_skill": 68,
+      "runs": 291,
+      "strike_rate": 30.1,
+      "wickets": 7
+    },
+    "confidence": 0.63,
+    "provisional": true,
+    "style": null
+  },
+  "Ahmed Daniyal": {
+    "base_skill": 69,
+    "career": {
+      "economy": 9.05,
+      "matches": 17,
+      "overs": 61.3,
+      "raw_skill": 69,
+      "runs": 555,
+      "strike_rate": 21.6,
+      "wickets": 17
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Aimal Khan": {
+    "base_skill": 71,
+    "career": {
+      "economy": 11.87,
+      "matches": 5,
+      "overs": 15.0,
+      "raw_skill": 53,
+      "runs": 178,
+      "strike_rate": 30.0,
+      "wickets": 3
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "Aizaz Cheema": {
+    "base_skill": 75,
+    "career": {
+      "economy": 8.0,
+      "matches": 5,
+      "overs": 17.0,
+      "raw_skill": 78,
+      "runs": 136,
+      "strike_rate": 17.0,
+      "wickets": 6
+    },
+    "confidence": 0.17,
+    "provisional": true,
+    "style": null
+  },
+  "Akif Javed": {
+    "base_skill": 73,
+    "career": {
+      "economy": 9.17,
+      "matches": 26,
+      "overs": 86.5,
+      "raw_skill": 73,
+      "runs": 793,
+      "strike_rate": 15.3,
+      "wickets": 34
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Ali Khan": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.35,
+      "matches": 4,
+      "overs": 11.3,
+      "raw_skill": 67,
+      "runs": 106,
+      "strike_rate": 22.7,
+      "wickets": 3
+    },
+    "confidence": 0.03,
+    "provisional": true,
+    "style": null
+  },
+  "Ali Raza": {
+    "base_skill": 73,
+    "career": {
+      "economy": 9.39,
+      "matches": 14,
+      "overs": 50.2,
+      "raw_skill": 73,
+      "runs": 471,
+      "strike_rate": 13.7,
+      "wickets": 22
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Ali Shafiq": {
+    "base_skill": 75,
+    "career": {
+      "economy": 7.28,
+      "matches": 4,
+      "overs": 12.5,
+      "raw_skill": 81,
+      "runs": 91,
+      "strike_rate": 18.8,
+      "wickets": 4
+    },
+    "confidence": 0.06,
+    "provisional": true,
+    "style": null
+  },
+  "Amad Butt": {
+    "base_skill": 66,
+    "career": {
+      "economy": 9.81,
+      "matches": 22,
+      "overs": 69.3,
+      "raw_skill": 66,
+      "runs": 680,
+      "strike_rate": 19.8,
+      "wickets": 21
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Anwar Ali": {
+    "base_skill": 67,
+    "career": {
+      "economy": 9.12,
+      "matches": 48,
+      "overs": 143.2,
+      "raw_skill": 67,
+      "runs": 1305,
+      "strike_rate": 23.9,
+      "wickets": 36
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Arafat Minhas": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.41,
+      "matches": 12,
+      "overs": 34.0,
+      "raw_skill": 74,
+      "runs": 286,
+      "strike_rate": 20.4,
+      "wickets": 10
+    },
+    "confidence": 0.6,
+    "provisional": true,
+    "style": null
+  },
+  "Arif Yaqoob": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.77,
+      "matches": 9,
+      "overs": 30.0,
+      "raw_skill": 82,
+      "runs": 233,
+      "strike_rate": 12.9,
+      "wickets": 14
+    },
+    "confidence": 0.5,
+    "provisional": true,
+    "style": null
+  },
+  "Arshad Iqbal": {
+    "base_skill": 69,
+    "career": {
+      "economy": 9.23,
+      "matches": 24,
+      "overs": 83.3,
+      "raw_skill": 69,
+      "runs": 769,
+      "strike_rate": 20.0,
+      "wickets": 25
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Asif Afridi": {
+    "base_skill": 80,
+    "career": {
+      "economy": 7.46,
+      "matches": 21,
+      "overs": 68.5,
+      "raw_skill": 80,
+      "runs": 511,
+      "strike_rate": 18.7,
+      "wickets": 22
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Azmatullah Omarzai": {
+    "base_skill": 73,
+    "career": {
+      "economy": 9.81,
+      "matches": 6,
+      "overs": 23.3,
+      "raw_skill": 70,
+      "runs": 229,
+      "strike_rate": 14.0,
+      "wickets": 10
+    },
+    "confidence": 0.33,
+    "provisional": true,
+    "style": null
+  },
+  "B Laughlin": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.9,
+      "matches": 3,
+      "overs": 10.0,
+      "raw_skill": 77,
+      "runs": 79,
+      "strike_rate": 20.0,
+      "wickets": 3
+    },
+    "confidence": 0.0,
+    "provisional": true,
+    "style": null
+  },
+  "B Muzarabani": {
+    "base_skill": 80,
+    "career": {
+      "economy": 7.79,
+      "matches": 15,
+      "overs": 54.7,
+      "raw_skill": 80,
+      "runs": 426,
+      "strike_rate": 15.6,
+      "wickets": 21
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "BAW Mendis": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.83,
+      "matches": 4,
+      "overs": 12.0,
+      "raw_skill": 78,
+      "runs": 94,
+      "strike_rate": 18.0,
+      "wickets": 4
+    },
+    "confidence": 0.05,
+    "provisional": true,
+    "style": null
+  },
+  "BCJ Cutting": {
+    "base_skill": 68,
+    "career": {
+      "economy": 10.9,
+      "matches": 13,
+      "overs": 32.7,
+      "raw_skill": 64,
+      "runs": 356,
+      "strike_rate": 15.1,
+      "wickets": 13
+    },
+    "confidence": 0.57,
+    "provisional": true,
+    "style": null
+  },
+  "BJ Dwarshuis": {
+    "base_skill": 71,
+    "career": {
+      "economy": 10.29,
+      "matches": 7,
+      "overs": 21.0,
+      "raw_skill": 63,
+      "runs": 216,
+      "strike_rate": 21.0,
+      "wickets": 6
+    },
+    "confidence": 0.28,
+    "provisional": true,
+    "style": null
+  },
+  "BV Sears": {
+    "base_skill": 73,
+    "career": {
+      "economy": 9.8,
+      "matches": 4,
+      "overs": 15.0,
+      "raw_skill": 68,
+      "runs": 147,
+      "strike_rate": 18.0,
+      "wickets": 5
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "Bilawal Bhatti": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.76,
+      "matches": 8,
+      "overs": 26.2,
+      "raw_skill": 73,
+      "runs": 203,
+      "strike_rate": 26.2,
+      "wickets": 6
+    },
+    "confidence": 0.4,
+    "provisional": true,
+    "style": null
+  },
+  "CJ Green": {
+    "base_skill": 81,
+    "career": {
+      "economy": 6.68,
+      "matches": 14,
+      "overs": 44.0,
+      "raw_skill": 82,
+      "runs": 294,
+      "strike_rate": 22.0,
+      "wickets": 12
+    },
+    "confidence": 0.85,
+    "provisional": true,
+    "style": null
+  },
+  "CJ Jordan": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.64,
+      "matches": 37,
+      "overs": 131.3,
+      "raw_skill": 74,
+      "runs": 1135,
+      "strike_rate": 18.3,
+      "wickets": 43
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "CR Brathwaite": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.7,
+      "matches": 17,
+      "overs": 48.8,
+      "raw_skill": 69,
+      "runs": 425,
+      "strike_rate": 24.4,
+      "wickets": 12
+    },
+    "confidence": 0.97,
+    "provisional": true,
+    "style": null
+  },
+  "CS Delport": {
+    "base_skill": 72,
+    "career": {
+      "economy": 9.08,
+      "matches": 14,
+      "overs": 31.8,
+      "raw_skill": 71,
+      "runs": 289,
+      "strike_rate": 19.1,
+      "wickets": 10
+    },
+    "confidence": 0.55,
+    "provisional": true,
+    "style": null
+  },
+  "D Wiese": {
+    "base_skill": 72,
+    "career": {
+      "economy": 8.27,
+      "matches": 53,
+      "overs": 147.2,
+      "raw_skill": 72,
+      "runs": 1217,
+      "strike_rate": 23.2,
+      "wickets": 38
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "DJ Bravo": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.33,
+      "matches": 14,
+      "overs": 51.0,
+      "raw_skill": 69,
+      "runs": 425,
+      "strike_rate": 27.8,
+      "wickets": 11
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "DJ Mitchell": {
+    "base_skill": 70,
+    "career": {
+      "economy": 10.32,
+      "matches": 11,
+      "overs": 23.8,
+      "raw_skill": 63,
+      "runs": 246,
+      "strike_rate": 20.4,
+      "wickets": 7
+    },
+    "confidence": 0.35,
+    "provisional": true,
+    "style": null
+  },
+  "DJ Willey": {
+    "base_skill": 77,
+    "career": {
+      "economy": 8.35,
+      "matches": 26,
+      "overs": 86.5,
+      "raw_skill": 77,
+      "runs": 722,
+      "strike_rate": 15.3,
+      "wickets": 34
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "DJG Sammy": {
+    "base_skill": 72,
+    "career": {
+      "economy": 9.62,
+      "matches": 15,
+      "overs": 25.7,
+      "raw_skill": 68,
+      "runs": 247,
+      "strike_rate": 19.2,
+      "wickets": 8
+    },
+    "confidence": 0.39,
+    "provisional": true,
+    "style": null
+  },
+  "DR Sams": {
+    "base_skill": 67,
+    "career": {
+      "economy": 10.0,
+      "matches": 10,
+      "overs": 34.0,
+      "raw_skill": 61,
+      "runs": 340,
+      "strike_rate": 25.5,
+      "wickets": 8
+    },
+    "confidence": 0.6,
+    "provisional": true,
+    "style": null
+  },
+  "DT Christian": {
+    "base_skill": 71,
+    "career": {
+      "economy": 10.82,
+      "matches": 10,
+      "overs": 22.8,
+      "raw_skill": 64,
+      "runs": 247,
+      "strike_rate": 15.2,
+      "wickets": 9
+    },
+    "confidence": 0.32,
+    "provisional": true,
+    "style": null
+  },
+  "DW Steyn": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.4,
+      "matches": 7,
+      "overs": 21.7,
+      "raw_skill": 73,
+      "runs": 182,
+      "strike_rate": 21.7,
+      "wickets": 6
+    },
+    "confidence": 0.29,
+    "provisional": true,
+    "style": null
+  },
+  "Dilbar Hussain": {
+    "base_skill": 76,
+    "career": {
+      "economy": 8.43,
+      "matches": 12,
+      "overs": 37.5,
+      "raw_skill": 77,
+      "runs": 316,
+      "strike_rate": 15.0,
+      "wickets": 15
+    },
+    "confidence": 0.69,
+    "provisional": true,
+    "style": null
+  },
+  "Ehsan Adil": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.57,
+      "matches": 5,
+      "overs": 19.8,
+      "raw_skill": 75,
+      "runs": 170,
+      "strike_rate": 17.0,
+      "wickets": 7
+    },
+    "confidence": 0.25,
+    "provisional": true,
+    "style": null
+  },
+  "Faheem Ashraf": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.75,
+      "matches": 92,
+      "overs": 290.5,
+      "raw_skill": 74,
+      "runs": 2542,
+      "strike_rate": 16.8,
+      "wickets": 104
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Faisal Akram": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.96,
+      "matches": 9,
+      "overs": 27.3,
+      "raw_skill": 72,
+      "runs": 245,
+      "strike_rate": 18.2,
+      "wickets": 9
+    },
+    "confidence": 0.43,
+    "provisional": true,
+    "style": null
+  },
+  "Fakhar Zaman": {
+    "base_skill": 74,
+    "career": {
+      "economy": 5.8,
+      "matches": 7,
+      "overs": 10.0,
+      "raw_skill": 81,
+      "runs": 58,
+      "strike_rate": 30.0,
+      "wickets": 2
+    },
+    "confidence": 0.0,
+    "provisional": true,
+    "style": null
+  },
+  "Fawad Ahmed": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.38,
+      "matches": 23,
+      "overs": 88.8,
+      "raw_skill": 77,
+      "runs": 656,
+      "strike_rate": 23.2,
+      "wickets": 23
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Fawad Ali": {
+    "base_skill": 73,
+    "career": {
+      "economy": 9.0,
+      "matches": 5,
+      "overs": 12.0,
+      "raw_skill": 60,
+      "runs": 108,
+      "strike_rate": 36.0,
+      "wickets": 2
+    },
+    "confidence": 0.05,
+    "provisional": true,
+    "style": null
+  },
+  "Fazalhaq Farooqi": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.9,
+      "matches": 6,
+      "overs": 23.2,
+      "raw_skill": 81,
+      "runs": 183,
+      "strike_rate": 12.6,
+      "wickets": 11
+    },
+    "confidence": 0.33,
+    "provisional": true,
+    "style": null
+  },
+  "GC Viljoen": {
+    "base_skill": 73,
+    "career": {
+      "economy": 9.27,
+      "matches": 5,
+      "overs": 15.0,
+      "raw_skill": 67,
+      "runs": 139,
+      "strike_rate": 22.5,
+      "wickets": 4
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "GD Elliott": {
+    "base_skill": 80,
+    "career": {
+      "economy": 7.32,
+      "matches": 13,
+      "overs": 34.0,
+      "raw_skill": 84,
+      "runs": 249,
+      "strike_rate": 13.6,
+      "wickets": 15
+    },
+    "confidence": 0.6,
+    "provisional": true,
+    "style": null
+  },
+  "GF Linde": {
+    "base_skill": 72,
+    "career": {
+      "economy": 9.0,
+      "matches": 5,
+      "overs": 14.0,
+      "raw_skill": 56,
+      "runs": 126,
+      "strike_rate": 84.0,
+      "wickets": 1
+    },
+    "confidence": 0.1,
+    "provisional": true,
+    "style": null
+  },
+  "GJ Maxwell": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.44,
+      "matches": 6,
+      "overs": 16.0,
+      "raw_skill": 74,
+      "runs": 135,
+      "strike_rate": 19.2,
+      "wickets": 5
+    },
+    "confidence": 0.15,
+    "provisional": true,
+    "style": null
+  },
+  "Ghulam Mudassar": {
+    "base_skill": 67,
+    "career": {
+      "economy": 10.25,
+      "matches": 11,
+      "overs": 37.7,
+      "raw_skill": 63,
+      "runs": 386,
+      "strike_rate": 20.5,
+      "wickets": 11
+    },
+    "confidence": 0.69,
+    "provisional": true,
+    "style": null
+  },
+  "Haris Rauf": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.35,
+      "matches": 78,
+      "overs": 286.2,
+      "raw_skill": 70,
+      "runs": 2676,
+      "strike_rate": 18.1,
+      "wickets": 95
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Hasan Ali": {
+    "base_skill": 77,
+    "career": {
+      "economy": 8.25,
+      "matches": 100,
+      "overs": 382.0,
+      "raw_skill": 77,
+      "runs": 3151,
+      "strike_rate": 16.4,
+      "wickets": 140
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Hassan Khan": {
+    "base_skill": 70,
+    "career": {
+      "economy": 7.85,
+      "matches": 40,
+      "overs": 111.3,
+      "raw_skill": 70,
+      "runs": 874,
+      "strike_rate": 30.4,
+      "wickets": 22
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Hunain Shah": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.01,
+      "matches": 20,
+      "overs": 61.2,
+      "raw_skill": 74,
+      "runs": 551,
+      "strike_rate": 14.7,
+      "wickets": 25
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Hussain Talat": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.31,
+      "matches": 30,
+      "overs": 62.8,
+      "raw_skill": 70,
+      "runs": 585,
+      "strike_rate": 18.9,
+      "wickets": 20
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Ibtisam Sheikh": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.42,
+      "matches": 8,
+      "overs": 24.0,
+      "raw_skill": 82,
+      "runs": 178,
+      "strike_rate": 16.0,
+      "wickets": 9
+    },
+    "confidence": 0.35,
+    "provisional": true,
+    "style": null
+  },
+  "Iftikhar Ahmed": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.2,
+      "matches": 46,
+      "overs": 88.2,
+      "raw_skill": 74,
+      "runs": 723,
+      "strike_rate": 21.2,
+      "wickets": 25
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Ihsanullah": {
+    "base_skill": 82,
+    "career": {
+      "economy": 7.8,
+      "matches": 15,
+      "overs": 51.0,
+      "raw_skill": 82,
+      "runs": 398,
+      "strike_rate": 13.3,
+      "wickets": 23
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Imad Wasim": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.09,
+      "matches": 107,
+      "overs": 359.3,
+      "raw_skill": 78,
+      "runs": 2548,
+      "strike_rate": 24.2,
+      "wickets": 89
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Imran Khalid": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.07,
+      "matches": 11,
+      "overs": 28.2,
+      "raw_skill": 83,
+      "runs": 199,
+      "strike_rate": 16.9,
+      "wickets": 10
+    },
+    "confidence": 0.45,
+    "provisional": true,
+    "style": null
+  },
+  "Imran Khan": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.94,
+      "matches": 9,
+      "overs": 32.0,
+      "raw_skill": 79,
+      "runs": 254,
+      "strike_rate": 16.0,
+      "wickets": 12
+    },
+    "confidence": 0.55,
+    "provisional": true,
+    "style": null
+  },
+  "Imran Khan (1)": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.47,
+      "matches": 3,
+      "overs": 10.7,
+      "raw_skill": 67,
+      "runs": 101,
+      "strike_rate": 21.3,
+      "wickets": 3
+    },
+    "confidence": 0.02,
+    "provisional": true,
+    "style": null
+  },
+  "Imran Tahir": {
+    "base_skill": 83,
+    "career": {
+      "economy": 7.05,
+      "matches": 42,
+      "overs": 156.0,
+      "raw_skill": 83,
+      "runs": 1100,
+      "strike_rate": 16.7,
+      "wickets": 56
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "J Little": {
+    "base_skill": 74,
+    "career": {
+      "economy": 10.4,
+      "matches": 3,
+      "overs": 10.0,
+      "raw_skill": 56,
+      "runs": 104,
+      "strike_rate": 30.0,
+      "wickets": 2
+    },
+    "confidence": 0.0,
+    "provisional": true,
+    "style": null
+  },
+  "JDS Neesham": {
+    "base_skill": 72,
+    "career": {
+      "economy": 8.96,
+      "matches": 9,
+      "overs": 27.0,
+      "raw_skill": 69,
+      "runs": 242,
+      "strike_rate": 23.1,
+      "wickets": 7
+    },
+    "confidence": 0.42,
+    "provisional": true,
+    "style": null
+  },
+  "JK Fuller": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.45,
+      "matches": 3,
+      "overs": 11.0,
+      "raw_skill": 59,
+      "runs": 104,
+      "strike_rate": 33.0,
+      "wickets": 2
+    },
+    "confidence": 0.03,
+    "provisional": true,
+    "style": null
+  },
+  "JO Holder": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.37,
+      "matches": 8,
+      "overs": 30.0,
+      "raw_skill": 74,
+      "runs": 281,
+      "strike_rate": 12.0,
+      "wickets": 15
+    },
+    "confidence": 0.5,
+    "provisional": true,
+    "style": null
+  },
+  "JP Faulkner": {
+    "base_skill": 79,
+    "career": {
+      "economy": 8.0,
+      "matches": 12,
+      "overs": 44.0,
+      "raw_skill": 80,
+      "runs": 352,
+      "strike_rate": 13.9,
+      "wickets": 19
+    },
+    "confidence": 0.85,
+    "provisional": true,
+    "style": null
+  },
+  "JW Hastings": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.7,
+      "matches": 3,
+      "overs": 10.0,
+      "raw_skill": 71,
+      "runs": 77,
+      "strike_rate": 30.0,
+      "wickets": 2
+    },
+    "confidence": 0.0,
+    "provisional": true,
+    "style": null
+  },
+  "Jahandad Khan": {
+    "base_skill": 64,
+    "career": {
+      "economy": 10.07,
+      "matches": 16,
+      "overs": 44.0,
+      "raw_skill": 62,
+      "runs": 443,
+      "strike_rate": 24.0,
+      "wickets": 11
+    },
+    "confidence": 0.85,
+    "provisional": true,
+    "style": null
+  },
+  "Junaid Khan": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.48,
+      "matches": 25,
+      "overs": 92.0,
+      "raw_skill": 73,
+      "runs": 780,
+      "strike_rate": 21.2,
+      "wickets": 26
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "KA Pollard": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.79,
+      "matches": 24,
+      "overs": 51.7,
+      "raw_skill": 69,
+      "runs": 454,
+      "strike_rate": 23.8,
+      "wickets": 13
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "KK Cooper": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.24,
+      "matches": 6,
+      "overs": 17.0,
+      "raw_skill": 71,
+      "runs": 157,
+      "strike_rate": 17.0,
+      "wickets": 6
+    },
+    "confidence": 0.17,
+    "provisional": true,
+    "style": null
+  },
+  "Kamran Ghulam": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.6,
+      "matches": 7,
+      "overs": 10.0,
+      "raw_skill": 58,
+      "runs": 86,
+      "strike_rate": 60.0,
+      "wickets": 1
+    },
+    "confidence": 0.0,
+    "provisional": true,
+    "style": null
+  },
+  "Khalid Usman": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.6,
+      "matches": 4,
+      "overs": 15.0,
+      "raw_skill": 72,
+      "runs": 114,
+      "strike_rate": 30.0,
+      "wickets": 3
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "Khalil Ahmed": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.8,
+      "matches": 3,
+      "overs": 10.0,
+      "raw_skill": 60,
+      "runs": 98,
+      "strike_rate": 30.0,
+      "wickets": 2
+    },
+    "confidence": 0.0,
+    "provisional": true,
+    "style": null
+  },
+  "Khurram Shahzad": {
+    "base_skill": 78,
+    "career": {
+      "economy": 8.3,
+      "matches": 22,
+      "overs": 74.5,
+      "raw_skill": 78,
+      "runs": 618,
+      "strike_rate": 14.0,
+      "wickets": 32
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Khushdil Shah": {
+    "base_skill": 77,
+    "career": {
+      "economy": 8.06,
+      "matches": 46,
+      "overs": 115.0,
+      "raw_skill": 77,
+      "runs": 927,
+      "strike_rate": 17.7,
+      "wickets": 39
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "L Gregory": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.36,
+      "matches": 12,
+      "overs": 29.2,
+      "raw_skill": 65,
+      "runs": 273,
+      "strike_rate": 25.0,
+      "wickets": 7
+    },
+    "confidence": 0.48,
+    "provisional": true,
+    "style": null
+  },
+  "L Wood": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.97,
+      "matches": 20,
+      "overs": 75.5,
+      "raw_skill": 77,
+      "runs": 602,
+      "strike_rate": 18.9,
+      "wickets": 24
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "LA Dawson": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.79,
+      "matches": 29,
+      "overs": 84.5,
+      "raw_skill": 74,
+      "runs": 658,
+      "strike_rate": 24.1,
+      "wickets": 21
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "LS Livingstone": {
+    "base_skill": 72,
+    "career": {
+      "economy": 8.71,
+      "matches": 5,
+      "overs": 14.0,
+      "raw_skill": 57,
+      "runs": 122,
+      "strike_rate": 42.0,
+      "wickets": 2
+    },
+    "confidence": 0.1,
+    "provisional": true,
+    "style": null
+  },
+  "M Theekshana": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.17,
+      "matches": 3,
+      "overs": 12.0,
+      "raw_skill": 76,
+      "runs": 98,
+      "strike_rate": 18.0,
+      "wickets": 4
+    },
+    "confidence": 0.05,
+    "provisional": true,
+    "style": null
+  },
+  "M de Lange": {
+    "base_skill": 71,
+    "career": {
+      "economy": 10.2,
+      "matches": 5,
+      "overs": 15.0,
+      "raw_skill": 49,
+      "runs": 153,
+      "strike_rate": 45.0,
+      "wickets": 2
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "MG Bracewell": {
+    "base_skill": 65,
+    "career": {
+      "economy": 9.77,
+      "matches": 16,
+      "overs": 44.0,
+      "raw_skill": 64,
+      "runs": 430,
+      "strike_rate": 24.0,
+      "wickets": 11
+    },
+    "confidence": 0.85,
+    "provisional": true,
+    "style": null
+  },
+  "MJ McClenaghan": {
+    "base_skill": 71,
+    "career": {
+      "economy": 9.18,
+      "matches": 5,
+      "overs": 17.0,
+      "raw_skill": 55,
+      "runs": 156,
+      "strike_rate": 51.0,
+      "wickets": 2
+    },
+    "confidence": 0.17,
+    "provisional": true,
+    "style": null
+  },
+  "MM Ali": {
+    "base_skill": 72,
+    "career": {
+      "economy": 9.1,
+      "matches": 16,
+      "overs": 39.0,
+      "raw_skill": 71,
+      "runs": 355,
+      "strike_rate": 18.0,
+      "wickets": 13
+    },
+    "confidence": 0.72,
+    "provisional": true,
+    "style": null
+  },
+  "Mahmudullah": {
+    "base_skill": 75,
+    "career": {
+      "economy": 7.9,
+      "matches": 7,
+      "overs": 17.3,
+      "raw_skill": 81,
+      "runs": 137,
+      "strike_rate": 13.0,
+      "wickets": 8
+    },
+    "confidence": 0.18,
+    "provisional": true,
+    "style": null
+  },
+  "Mehran Mumtaz": {
+    "base_skill": 76,
+    "career": {
+      "economy": 6.8,
+      "matches": 6,
+      "overs": 20.0,
+      "raw_skill": 80,
+      "runs": 136,
+      "strike_rate": 24.0,
+      "wickets": 5
+    },
+    "confidence": 0.25,
+    "provisional": true,
+    "style": null
+  },
+  "Mir Hamza": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.69,
+      "matches": 34,
+      "overs": 114.8,
+      "raw_skill": 73,
+      "runs": 998,
+      "strike_rate": 19.1,
+      "wickets": 36
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Abbas": {
+    "base_skill": 75,
+    "career": {
+      "economy": 5.75,
+      "matches": 3,
+      "overs": 12.0,
+      "raw_skill": 92,
+      "runs": 69,
+      "strike_rate": 14.4,
+      "wickets": 5
+    },
+    "confidence": 0.05,
+    "provisional": true,
+    "style": null
+  },
+  "Mohammad Ali": {
+    "base_skill": 76,
+    "career": {
+      "economy": 8.76,
+      "matches": 28,
+      "overs": 101.3,
+      "raw_skill": 76,
+      "runs": 888,
+      "strike_rate": 14.1,
+      "wickets": 43
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Amir": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.76,
+      "matches": 92,
+      "overs": 341.5,
+      "raw_skill": 77,
+      "runs": 2650,
+      "strike_rate": 21.1,
+      "wickets": 97
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Amir Khan": {
+    "base_skill": 68,
+    "career": {
+      "economy": 9.83,
+      "matches": 9,
+      "overs": 24.0,
+      "raw_skill": 55,
+      "runs": 236,
+      "strike_rate": 36.0,
+      "wickets": 4
+    },
+    "confidence": 0.35,
+    "provisional": true,
+    "style": null
+  },
+  "Mohammad Asghar": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.66,
+      "matches": 20,
+      "overs": 60.7,
+      "raw_skill": 79,
+      "runs": 465,
+      "strike_rate": 18.2,
+      "wickets": 20
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Basit": {
+    "base_skill": 76,
+    "career": {
+      "economy": 7.76,
+      "matches": 6,
+      "overs": 22.2,
+      "raw_skill": 82,
+      "runs": 172,
+      "strike_rate": 13.3,
+      "wickets": 10
+    },
+    "confidence": 0.3,
+    "provisional": true,
+    "style": null
+  },
+  "Mohammad Hafeez": {
+    "base_skill": 79,
+    "career": {
+      "economy": 6.88,
+      "matches": 35,
+      "overs": 74.2,
+      "raw_skill": 79,
+      "runs": 510,
+      "strike_rate": 24.7,
+      "wickets": 18
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Hasnain": {
+    "base_skill": 72,
+    "career": {
+      "economy": 9.04,
+      "matches": 46,
+      "overs": 164.0,
+      "raw_skill": 72,
+      "runs": 1483,
+      "strike_rate": 17.9,
+      "wickets": 55
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Ilyas": {
+    "base_skill": 71,
+    "career": {
+      "economy": 9.31,
+      "matches": 26,
+      "overs": 76.3,
+      "raw_skill": 71,
+      "runs": 711,
+      "strike_rate": 16.4,
+      "wickets": 28
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Imran": {
+    "base_skill": 66,
+    "career": {
+      "economy": 8.68,
+      "matches": 20,
+      "overs": 70.5,
+      "raw_skill": 66,
+      "runs": 612,
+      "strike_rate": 30.2,
+      "wickets": 14
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Irfan": {
+    "base_skill": 78,
+    "career": {
+      "economy": 6.97,
+      "matches": 51,
+      "overs": 192.5,
+      "raw_skill": 78,
+      "runs": 1341,
+      "strike_rate": 25.7,
+      "wickets": 45
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Irfan (4)": {
+    "base_skill": 71,
+    "career": {
+      "economy": 9.35,
+      "matches": 20,
+      "overs": 63.0,
+      "raw_skill": 71,
+      "runs": 589,
+      "strike_rate": 17.2,
+      "wickets": 22
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Nabi": {
+    "base_skill": 71,
+    "career": {
+      "economy": 7.15,
+      "matches": 29,
+      "overs": 97.5,
+      "raw_skill": 71,
+      "runs": 697,
+      "strike_rate": 34.4,
+      "wickets": 17
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Nawaz": {
+    "base_skill": 68,
+    "career": {
+      "economy": 9.18,
+      "matches": 39,
+      "overs": 110.0,
+      "raw_skill": 68,
+      "runs": 1010,
+      "strike_rate": 22.0,
+      "wickets": 30
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Nawaz (3)": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.14,
+      "matches": 57,
+      "overs": 188.7,
+      "raw_skill": 79,
+      "runs": 1348,
+      "strike_rate": 22.6,
+      "wickets": 50
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Sami": {
+    "base_skill": 83,
+    "career": {
+      "economy": 6.95,
+      "matches": 36,
+      "overs": 128.0,
+      "raw_skill": 83,
+      "runs": 890,
+      "strike_rate": 17.9,
+      "wickets": 43
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Umar": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.47,
+      "matches": 10,
+      "overs": 34.8,
+      "raw_skill": 67,
+      "runs": 330,
+      "strike_rate": 20.9,
+      "wickets": 10
+    },
+    "confidence": 0.62,
+    "provisional": true,
+    "style": null
+  },
+  "Mohammad Wasim": {
+    "base_skill": 67,
+    "career": {
+      "economy": 9.61,
+      "matches": 51,
+      "overs": 183.0,
+      "raw_skill": 67,
+      "runs": 1758,
+      "strike_rate": 20.3,
+      "wickets": 54
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mohammad Zeeshan": {
+    "base_skill": 72,
+    "career": {
+      "economy": 10.31,
+      "matches": 4,
+      "overs": 13.0,
+      "raw_skill": 49,
+      "runs": 134,
+      "strike_rate": 78.0,
+      "wickets": 1
+    },
+    "confidence": 0.07,
+    "provisional": true,
+    "style": null
+  },
+  "Momin Qamar": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.25,
+      "matches": 4,
+      "overs": 12.0,
+      "raw_skill": 71,
+      "runs": 111,
+      "strike_rate": 18.0,
+      "wickets": 4
+    },
+    "confidence": 0.05,
+    "provisional": true,
+    "style": null
+  },
+  "Mubasir Khan": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.93,
+      "matches": 13,
+      "overs": 21.5,
+      "raw_skill": 56,
+      "runs": 192,
+      "strike_rate": 43.0,
+      "wickets": 3
+    },
+    "confidence": 0.29,
+    "provisional": true,
+    "style": null
+  },
+  "Muhammad Ismail": {
+    "base_skill": 72,
+    "career": {
+      "economy": 11.14,
+      "matches": 7,
+      "overs": 17.5,
+      "raw_skill": 65,
+      "runs": 195,
+      "strike_rate": 10.5,
+      "wickets": 10
+    },
+    "confidence": 0.19,
+    "provisional": true,
+    "style": null
+  },
+  "Muhammad Musa": {
+    "base_skill": 68,
+    "career": {
+      "economy": 9.63,
+      "matches": 20,
+      "overs": 66.7,
+      "raw_skill": 68,
+      "runs": 642,
+      "strike_rate": 18.2,
+      "wickets": 22
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Mujeeb Ur Rahman": {
+    "base_skill": 60,
+    "career": {
+      "economy": 8.66,
+      "matches": 11,
+      "overs": 44.0,
+      "raw_skill": 58,
+      "runs": 381,
+      "strike_rate": 44.0,
+      "wickets": 6
+    },
+    "confidence": 0.85,
+    "provisional": true,
+    "style": null
+  },
+  "Mustafizur Rahman": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.32,
+      "matches": 10,
+      "overs": 34.0,
+      "raw_skill": 79,
+      "runs": 249,
+      "strike_rate": 20.4,
+      "wickets": 10
+    },
+    "confidence": 0.6,
+    "provisional": true,
+    "style": null
+  },
+  "NLTC Perera": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.98,
+      "matches": 10,
+      "overs": 26.2,
+      "raw_skill": 74,
+      "runs": 235,
+      "strike_rate": 14.3,
+      "wickets": 11
+    },
+    "confidence": 0.4,
+    "provisional": true,
+    "style": null
+  },
+  "Nahid Rana": {
+    "base_skill": 78,
+    "career": {
+      "economy": 5.44,
+      "matches": 5,
+      "overs": 18.0,
+      "raw_skill": 95,
+      "runs": 98,
+      "strike_rate": 12.0,
+      "wickets": 9
+    },
+    "confidence": 0.2,
+    "provisional": true,
+    "style": null
+  },
+  "Naseem Shah": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.26,
+      "matches": 53,
+      "overs": 193.5,
+      "raw_skill": 73,
+      "runs": 1599,
+      "strike_rate": 22.3,
+      "wickets": 52
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Nauman Ali": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.91,
+      "matches": 4,
+      "overs": 11.0,
+      "raw_skill": 68,
+      "runs": 87,
+      "strike_rate": 33.0,
+      "wickets": 2
+    },
+    "confidence": 0.03,
+    "provisional": true,
+    "style": null
+  },
+  "Naveen-ul-Haq": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.76,
+      "matches": 10,
+      "overs": 38.0,
+      "raw_skill": 68,
+      "runs": 371,
+      "strike_rate": 17.5,
+      "wickets": 13
+    },
+    "confidence": 0.7,
+    "provisional": true,
+    "style": null
+  },
+  "Noor Ahmad": {
+    "base_skill": 71,
+    "career": {
+      "economy": 8.1,
+      "matches": 8,
+      "overs": 31.0,
+      "raw_skill": 68,
+      "runs": 251,
+      "strike_rate": 31.0,
+      "wickets": 6
+    },
+    "confidence": 0.53,
+    "provisional": true,
+    "style": null
+  },
+  "OF Smith": {
+    "base_skill": 70,
+    "career": {
+      "economy": 10.34,
+      "matches": 6,
+      "overs": 20.5,
+      "raw_skill": 60,
+      "runs": 212,
+      "strike_rate": 24.6,
+      "wickets": 5
+    },
+    "confidence": 0.26,
+    "provisional": true,
+    "style": null
+  },
+  "PI Walter": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.82,
+      "matches": 5,
+      "overs": 11.0,
+      "raw_skill": 57,
+      "runs": 108,
+      "strike_rate": 33.0,
+      "wickets": 2
+    },
+    "confidence": 0.03,
+    "provisional": true,
+    "style": null
+  },
+  "PM Siddle": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.88,
+      "matches": 11,
+      "overs": 40.0,
+      "raw_skill": 72,
+      "runs": 355,
+      "strike_rate": 18.5,
+      "wickets": 13
+    },
+    "confidence": 0.75,
+    "provisional": true,
+    "style": null
+  },
+  "Qais Ahmad": {
+    "base_skill": 71,
+    "career": {
+      "economy": 10.74,
+      "matches": 6,
+      "overs": 23.0,
+      "raw_skill": 64,
+      "runs": 247,
+      "strike_rate": 15.3,
+      "wickets": 9
+    },
+    "confidence": 0.33,
+    "provisional": true,
+    "style": null
+  },
+  "RJ Gleeson": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.14,
+      "matches": 9,
+      "overs": 31.7,
+      "raw_skill": 84,
+      "runs": 226,
+      "strike_rate": 15.8,
+      "wickets": 12
+    },
+    "confidence": 0.54,
+    "provisional": true,
+    "style": null
+  },
+  "RP Meredith": {
+    "base_skill": 72,
+    "career": {
+      "economy": 9.64,
+      "matches": 7,
+      "overs": 25.0,
+      "raw_skill": 69,
+      "runs": 241,
+      "strike_rate": 16.7,
+      "wickets": 9
+    },
+    "confidence": 0.38,
+    "provisional": true,
+    "style": null
+  },
+  "RS Bopara": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.83,
+      "matches": 18,
+      "overs": 41.0,
+      "raw_skill": 72,
+      "runs": 362,
+      "strike_rate": 18.9,
+      "wickets": 13
+    },
+    "confidence": 0.78,
+    "provisional": true,
+    "style": null
+  },
+  "Rahat Ali": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.82,
+      "matches": 28,
+      "overs": 102.3,
+      "raw_skill": 78,
+      "runs": 800,
+      "strike_rate": 18.1,
+      "wickets": 34
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Rashid Khan": {
+    "base_skill": 89,
+    "career": {
+      "economy": 6.14,
+      "matches": 28,
+      "overs": 111.0,
+      "raw_skill": 89,
+      "runs": 681,
+      "strike_rate": 15.1,
+      "wickets": 44
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Rishad Hossain": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.97,
+      "matches": 11,
+      "overs": 38.0,
+      "raw_skill": 68,
+      "runs": 379,
+      "strike_rate": 15.2,
+      "wickets": 15
+    },
+    "confidence": 0.7,
+    "provisional": true,
+    "style": null
+  },
+  "Rumman Raees": {
+    "base_skill": 76,
+    "career": {
+      "economy": 7.94,
+      "matches": 48,
+      "overs": 162.3,
+      "raw_skill": 76,
+      "runs": 1289,
+      "strike_rate": 20.3,
+      "wickets": 48
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "S Badree": {
+    "base_skill": 71,
+    "career": {
+      "economy": 7.38,
+      "matches": 7,
+      "overs": 26.0,
+      "raw_skill": 67,
+      "runs": 192,
+      "strike_rate": 39.0,
+      "wickets": 4
+    },
+    "confidence": 0.4,
+    "provisional": true,
+    "style": null
+  },
+  "S Lamichhane": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.66,
+      "matches": 7,
+      "overs": 24.7,
+      "raw_skill": 82,
+      "runs": 189,
+      "strike_rate": 13.5,
+      "wickets": 11
+    },
+    "confidence": 0.37,
+    "provisional": true,
+    "style": null
+  },
+  "S Mahmood": {
+    "base_skill": 75,
+    "career": {
+      "economy": 9.15,
+      "matches": 8,
+      "overs": 29.2,
+      "raw_skill": 75,
+      "runs": 267,
+      "strike_rate": 10.3,
+      "wickets": 17
+    },
+    "confidence": 0.48,
+    "provisional": true,
+    "style": null
+  },
+  "SP Narine": {
+    "base_skill": 86,
+    "career": {
+      "economy": 6.25,
+      "matches": 17,
+      "overs": 67.0,
+      "raw_skill": 86,
+      "runs": 419,
+      "strike_rate": 19.1,
+      "wickets": 21
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "SR Patel": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.64,
+      "matches": 34,
+      "overs": 101.2,
+      "raw_skill": 78,
+      "runs": 773,
+      "strike_rate": 20.2,
+      "wickets": 30
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "SR Watson": {
+    "base_skill": 75,
+    "career": {
+      "economy": 8.27,
+      "matches": 26,
+      "overs": 74.0,
+      "raw_skill": 75,
+      "runs": 612,
+      "strike_rate": 19.3,
+      "wickets": 23
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "ST Finn": {
+    "base_skill": 75,
+    "career": {
+      "economy": 7.75,
+      "matches": 5,
+      "overs": 16.0,
+      "raw_skill": 78,
+      "runs": 124,
+      "strike_rate": 19.2,
+      "wickets": 5
+    },
+    "confidence": 0.15,
+    "provisional": true,
+    "style": null
+  },
+  "SW Tait": {
+    "base_skill": 78,
+    "career": {
+      "economy": 7.0,
+      "matches": 8,
+      "overs": 31.0,
+      "raw_skill": 81,
+      "runs": 217,
+      "strike_rate": 20.7,
+      "wickets": 9
+    },
+    "confidence": 0.53,
+    "provisional": true,
+    "style": null
+  },
+  "Saad Masood": {
+    "base_skill": 72,
+    "career": {
+      "economy": 8.72,
+      "matches": 9,
+      "overs": 29.0,
+      "raw_skill": 69,
+      "runs": 253,
+      "strike_rate": 24.9,
+      "wickets": 7
+    },
+    "confidence": 0.47,
+    "provisional": true,
+    "style": null
+  },
+  "Saeed Ajmal": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.11,
+      "matches": 10,
+      "overs": 33.7,
+      "raw_skill": 74,
+      "runs": 273,
+      "strike_rate": 22.4,
+      "wickets": 9
+    },
+    "confidence": 0.59,
+    "provisional": true,
+    "style": null
+  },
+  "Saim Ayub": {
+    "base_skill": 71,
+    "career": {
+      "economy": 8.14,
+      "matches": 32,
+      "overs": 86.0,
+      "raw_skill": 71,
+      "runs": 700,
+      "strike_rate": 25.8,
+      "wickets": 20
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Salman Irshad": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.63,
+      "matches": 41,
+      "overs": 141.3,
+      "raw_skill": 70,
+      "runs": 1361,
+      "strike_rate": 16.0,
+      "wickets": 53
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Salman Mirza": {
+    "base_skill": 65,
+    "career": {
+      "economy": 10.85,
+      "matches": 12,
+      "overs": 40.0,
+      "raw_skill": 62,
+      "runs": 434,
+      "strike_rate": 17.1,
+      "wickets": 14
+    },
+    "confidence": 0.75,
+    "provisional": true,
+    "style": null
+  },
+  "Sameen Gul": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.67,
+      "matches": 23,
+      "overs": 82.0,
+      "raw_skill": 73,
+      "runs": 711,
+      "strike_rate": 18.9,
+      "wickets": 26
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Saud Shakeel": {
+    "base_skill": 76,
+    "career": {
+      "economy": 7.96,
+      "matches": 15,
+      "overs": 24.0,
+      "raw_skill": 80,
+      "runs": 191,
+      "strike_rate": 14.4,
+      "wickets": 10
+    },
+    "confidence": 0.35,
+    "provisional": true,
+    "style": null
+  },
+  "Shadab Khan": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.64,
+      "matches": 102,
+      "overs": 365.0,
+      "raw_skill": 79,
+      "runs": 2788,
+      "strike_rate": 18.0,
+      "wickets": 122
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Shaheen Shah Afridi": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.98,
+      "matches": 93,
+      "overs": 348.0,
+      "raw_skill": 79,
+      "runs": 2777,
+      "strike_rate": 15.1,
+      "wickets": 138
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Shahid Afridi": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.17,
+      "matches": 50,
+      "overs": 168.7,
+      "raw_skill": 79,
+      "runs": 1210,
+      "strike_rate": 22.0,
+      "wickets": 46
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Shahid Aziz": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.5,
+      "matches": 6,
+      "overs": 12.0,
+      "raw_skill": 77,
+      "runs": 102,
+      "strike_rate": 14.4,
+      "wickets": 5
+    },
+    "confidence": 0.05,
+    "provisional": true,
+    "style": null
+  },
+  "Shahnawaz Dhani": {
+    "base_skill": 74,
+    "career": {
+      "economy": 9.1,
+      "matches": 27,
+      "overs": 89.3,
+      "raw_skill": 74,
+      "runs": 813,
+      "strike_rate": 13.7,
+      "wickets": 39
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Shakib Al Hasan": {
+    "base_skill": 74,
+    "career": {
+      "economy": 7.47,
+      "matches": 14,
+      "overs": 40.0,
+      "raw_skill": 74,
+      "runs": 299,
+      "strike_rate": 26.7,
+      "wickets": 9
+    },
+    "confidence": 0.75,
+    "provisional": true,
+    "style": null
+  },
+  "Shoaib Malik": {
+    "base_skill": 68,
+    "career": {
+      "economy": 7.15,
+      "matches": 51,
+      "overs": 110.8,
+      "raw_skill": 68,
+      "runs": 792,
+      "strike_rate": 39.1,
+      "wickets": 17
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Shoriful Islam": {
+    "base_skill": 73,
+    "career": {
+      "economy": 7.93,
+      "matches": 5,
+      "overs": 15.0,
+      "raw_skill": 62,
+      "runs": 119,
+      "strike_rate": 45.0,
+      "wickets": 2
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "Sikandar Raza": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.49,
+      "matches": 38,
+      "overs": 87.0,
+      "raw_skill": 73,
+      "runs": 739,
+      "strike_rate": 20.1,
+      "wickets": 26
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Sohail Khan": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.87,
+      "matches": 43,
+      "overs": 157.0,
+      "raw_skill": 69,
+      "runs": 1392,
+      "strike_rate": 23.6,
+      "wickets": 40
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Sohail Tanvir": {
+    "base_skill": 75,
+    "career": {
+      "economy": 7.93,
+      "matches": 58,
+      "overs": 211.8,
+      "raw_skill": 75,
+      "runs": 1680,
+      "strike_rate": 22.7,
+      "wickets": 56
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Sufiyan Muqeem": {
+    "base_skill": 80,
+    "career": {
+      "economy": 7.9,
+      "matches": 19,
+      "overs": 68.0,
+      "raw_skill": 80,
+      "runs": 537,
+      "strike_rate": 15.1,
+      "wickets": 27
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "T Shamsi": {
+    "base_skill": 74,
+    "career": {
+      "economy": 8.39,
+      "matches": 8,
+      "overs": 31.0,
+      "raw_skill": 75,
+      "runs": 260,
+      "strike_rate": 18.6,
+      "wickets": 10
+    },
+    "confidence": 0.53,
+    "provisional": true,
+    "style": null
+  },
+  "TK Curran": {
+    "base_skill": 69,
+    "career": {
+      "economy": 9.26,
+      "matches": 12,
+      "overs": 39.0,
+      "raw_skill": 67,
+      "runs": 361,
+      "strike_rate": 23.4,
+      "wickets": 10
+    },
+    "confidence": 0.72,
+    "provisional": true,
+    "style": null
+  },
+  "TS Mills": {
+    "base_skill": 76,
+    "career": {
+      "economy": 8.41,
+      "matches": 29,
+      "overs": 107.3,
+      "raw_skill": 76,
+      "runs": 903,
+      "strike_rate": 17.4,
+      "wickets": 37
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Ubaid Shah": {
+    "base_skill": 68,
+    "career": {
+      "economy": 9.79,
+      "matches": 19,
+      "overs": 59.2,
+      "raw_skill": 68,
+      "runs": 579,
+      "strike_rate": 17.8,
+      "wickets": 20
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Umaid Asif": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.42,
+      "matches": 47,
+      "overs": 173.3,
+      "raw_skill": 73,
+      "runs": 1459,
+      "strike_rate": 21.7,
+      "wickets": 48
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Umar Gul": {
+    "base_skill": 77,
+    "career": {
+      "economy": 7.97,
+      "matches": 9,
+      "overs": 33.0,
+      "raw_skill": 79,
+      "runs": 263,
+      "strike_rate": 15.2,
+      "wickets": 13
+    },
+    "confidence": 0.57,
+    "provisional": true,
+    "style": null
+  },
+  "Umer Khan": {
+    "base_skill": 80,
+    "career": {
+      "economy": 7.78,
+      "matches": 15,
+      "overs": 51.0,
+      "raw_skill": 80,
+      "runs": 397,
+      "strike_rate": 16.1,
+      "wickets": 19
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Usama Mir": {
+    "base_skill": 76,
+    "career": {
+      "economy": 8.27,
+      "matches": 56,
+      "overs": 196.5,
+      "raw_skill": 76,
+      "runs": 1625,
+      "strike_rate": 17.6,
+      "wickets": 67
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Usman Qadir": {
+    "base_skill": 70,
+    "career": {
+      "economy": 9.1,
+      "matches": 15,
+      "overs": 52.0,
+      "raw_skill": 70,
+      "runs": 473,
+      "strike_rate": 19.5,
+      "wickets": 16
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Usman Shinwari": {
+    "base_skill": 72,
+    "career": {
+      "economy": 8.8,
+      "matches": 38,
+      "overs": 132.0,
+      "raw_skill": 72,
+      "runs": 1161,
+      "strike_rate": 18.9,
+      "wickets": 42
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Usman Tariq": {
+    "base_skill": 76,
+    "career": {
+      "economy": 7.6,
+      "matches": 20,
+      "overs": 79.5,
+      "raw_skill": 76,
+      "runs": 604,
+      "strike_rate": 22.7,
+      "wickets": 21
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Wahab Riaz": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.79,
+      "matches": 86,
+      "overs": 325.8,
+      "raw_skill": 79,
+      "runs": 2539,
+      "strike_rate": 17.6,
+      "wickets": 111
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Waqas Maqsood": {
+    "base_skill": 76,
+    "career": {
+      "economy": 8.62,
+      "matches": 20,
+      "overs": 70.2,
+      "raw_skill": 76,
+      "runs": 605,
+      "strike_rate": 15.6,
+      "wickets": 27
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Yasir Shah": {
+    "base_skill": 79,
+    "career": {
+      "economy": 7.27,
+      "matches": 27,
+      "overs": 95.2,
+      "raw_skill": 79,
+      "runs": 692,
+      "strike_rate": 22.0,
+      "wickets": 26
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Zafar Gohar": {
+    "base_skill": 77,
+    "career": {
+      "economy": 8.4,
+      "matches": 16,
+      "overs": 46.3,
+      "raw_skill": 77,
+      "runs": 389,
+      "strike_rate": 15.4,
+      "wickets": 18
+    },
+    "confidence": 0.91,
+    "provisional": true,
+    "style": null
+  },
+  "Zahid Mahmood": {
+    "base_skill": 70,
+    "career": {
+      "economy": 8.47,
+      "matches": 18,
+      "overs": 64.8,
+      "raw_skill": 70,
+      "runs": 549,
+      "strike_rate": 25.9,
+      "wickets": 15
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Zahir Khan": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.2,
+      "matches": 4,
+      "overs": 15.0,
+      "raw_skill": 68,
+      "runs": 123,
+      "strike_rate": 30.0,
+      "wickets": 3
+    },
+    "confidence": 0.12,
+    "provisional": true,
+    "style": null
+  },
+  "Zaman Khan": {
+    "base_skill": 73,
+    "career": {
+      "economy": 8.82,
+      "matches": 39,
+      "overs": 130.3,
+      "raw_skill": 73,
+      "runs": 1150,
+      "strike_rate": 17.4,
+      "wickets": 45
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  },
+  "Zohaib Khan": {
+    "base_skill": 69,
+    "career": {
+      "economy": 8.52,
+      "matches": 8,
+      "overs": 23.0,
+      "raw_skill": 59,
+      "runs": 196,
+      "strike_rate": 46.0,
+      "wickets": 3
+    },
+    "confidence": 0.33,
+    "provisional": true,
+    "style": null
+  },
+  "Zulfiqar Babar": {
+    "base_skill": 76,
+    "career": {
+      "economy": 6.93,
+      "matches": 18,
+      "overs": 72.0,
+      "raw_skill": 76,
+      "runs": 499,
+      "strike_rate": 28.8,
+      "wickets": 15
+    },
+    "confidence": 1.0,
+    "provisional": false,
+    "style": null
+  }
+}

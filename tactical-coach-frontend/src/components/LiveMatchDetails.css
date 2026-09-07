@@ -1,0 +1,139 @@
+.live-details {
+  width: min(920px, 100%);
+  margin: 8px auto 0;
+  padding-bottom: 40px;
+  overflow-y: auto;
+}
+
+.live-details__back {
+  margin-bottom: 18px;
+  padding: 0;
+  color: var(--text-muted);
+  font: inherit;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.live-details__header {
+  padding: 24px;
+  margin-bottom: 18px;
+  text-align: center;
+  background: #101a14;
+  border: 1px solid #1f3327;
+  border-radius: 10px;
+}
+
+.live-details__header p {
+  margin: 0 0 8px;
+  color: #e8b93f;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.live-details__header h2 {
+  margin: 0;
+  font-family: var(--font-display);
+}
+
+.live-details__header h2 span {
+  padding: 0 8px;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+.live-details__facts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 14px 0;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.live-details__header strong {
+  color: #5fd68a;
+  font-size: 13px;
+}
+
+.live-details__lineups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.live-details__team {
+  padding: 20px;
+  background: #101a14;
+  border: 1px solid #1f3327;
+  border-radius: 10px;
+}
+
+.live-details__team h3 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 12px;
+  font-size: 16px;
+}
+
+.live-details__team h3 span {
+  color: var(--text-muted);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.live-details__team ol {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.live-details__team li {
+  padding: 8px 0 8px 4px;
+  border-bottom: 1px solid rgba(31, 51, 39, 0.65);
+}
+
+.live-details__team li:last-child {
+  border-bottom: 0;
+}
+
+.live-details__team li > span,
+.live-details__team li > small {
+  display: block;
+}
+
+.live-details__team small {
+  margin-top: 3px;
+  color: var(--text-muted);
+}
+
+.live-details__continue {
+  display: block;
+  min-width: 250px;
+  margin: 24px auto 0;
+  padding: 13px 24px;
+  color: #10190f;
+  font-weight: 600;
+  background: #e8b93f;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.live-details__error {
+  margin: 60px auto;
+  color: #e88f6b;
+  text-align: center;
+}
+
+.live-details__error button {
+  margin: 8px 4px;
+}
+
+@media (max-width: 700px) {
+  .live-details__lineups {
+    grid-template-columns: 1fr;
+  }
+}
