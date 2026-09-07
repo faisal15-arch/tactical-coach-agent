@@ -287,6 +287,36 @@ npm run lint
 npm run build
 ```
 
+## Deploying to Railway
+
+Deploy this repository as two Railway services from the same GitHub repository:
+
+1. Create a Railway PostgreSQL service and a Redis service.
+2. Create a backend service with root directory `tactical_coach_agent`.
+  Railway will use `tactical_coach_agent/Dockerfile`.
+3. Add these backend variables:
+
+  ```text
+  DATABASE_URL=${{Postgres.DATABASE_URL}}
+  REDIS_URL=${{Redis.REDIS_URL}}
+  FRONTEND_ORIGINS=https://<frontend-domain>
+  AUTH_COOKIE_SECURE=true
+  AUTH_COOKIE_SAMESITE=lax
+  GEMINI_API_KEY=<optional>
+  WEATHER_API_KEY=<optional>
+  ```
+
+4. Generate a public domain for the backend and verify `/health`.
+5. Create a frontend service from the same repository with root directory
+  `tactical-coach-frontend`. Railway will use `tactical-coach-frontend/Dockerfile`.
+6. Set the frontend service variable `BACKEND_URL` to the backend's public URL,
+  including the scheme, for example `https://backend-production.up.railway.app`.
+7. Generate a public domain for the frontend and replace `<frontend-domain>` in
+  the backend's `FRONTEND_ORIGINS` variable with that exact origin.
+
+The frontend proxy keeps API requests and authentication cookies on the frontend
+origin. Redeploy the backend after setting the final frontend domain.
+
 ## Limitations
 
 - Cricbuzz and Cricmetric website structures can change because some collected data comes from undocumented website payloads or internal endpoints.

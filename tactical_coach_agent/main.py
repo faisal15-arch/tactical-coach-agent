@@ -57,6 +57,7 @@ SESSION_TTL_SECONDS = int(
 AUTH_SESSION_HOURS = int(os.getenv("AUTH_SESSION_HOURS", "12"))
 AUTH_COOKIE_NAME = "tactical_student_session"
 AUTH_COOKIE_SECURE = os.getenv("AUTH_COOKIE_SECURE", "false").lower() == "true"
+AUTH_COOKIE_SAMESITE = os.getenv("AUTH_COOKIE_SAMESITE", "lax")
 
 _memory_sessions = {}
 
@@ -546,7 +547,7 @@ def student_login(
         max_age=AUTH_SESSION_HOURS * 3600,
         httponly=True,
         secure=AUTH_COOKIE_SECURE,
-        samesite="lax",
+        samesite=AUTH_COOKIE_SAMESITE,
         path="/",
     )
     return {
@@ -604,7 +605,7 @@ def student_register(
         max_age=AUTH_SESSION_HOURS * 3600,
         httponly=True,
         secure=AUTH_COOKIE_SECURE,
-        samesite="lax",
+        samesite=AUTH_COOKIE_SAMESITE,
         path="/",
     )
     return {
@@ -628,7 +629,7 @@ def student_logout(
         path="/",
         secure=AUTH_COOKIE_SECURE,
         httponly=True,
-        samesite="lax",
+        samesite=AUTH_COOKIE_SAMESITE,
     )
     return {"status": "ok"}
 
