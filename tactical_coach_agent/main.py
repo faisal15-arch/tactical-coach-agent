@@ -2914,7 +2914,7 @@ def _live_chat_response(
             "profile",
             "t20 stat",
         )
-    ):
+    ) or requested_bowler and current_spell_requested:
         bowler = requested_bowler["bowler"]
         profile = player_t20_stats.get(bowler)
         requested_fields = _requested_bowling_stat_fields(lowered)
@@ -2966,7 +2966,12 @@ def _live_chat_response(
                 )
         else:
             answer = f"No usable Cricbuzz T20 bowling profile is available for {bowler}."
-    elif "live stats" not in lowered and not bowling_ranking_requested and not matchup_requested and any(
+    elif (
+        not current_spell_requested
+        and "live stats" not in lowered
+        and not bowling_ranking_requested
+        and not matchup_requested
+        and any(
         term in lowered
         for term in (
             "hundred",
@@ -3029,6 +3034,7 @@ def _live_chat_response(
             "date of birth",
             "born",
             "age",
+        )
         )
     ):
         try:
@@ -3280,8 +3286,19 @@ def _live_chat_response(
             ) + "."
         else:
             answer = "No live ball-by-ball matchup sample is available for that batter at this point."
-    elif requested_batter and any(
-        term in lowered for term in ("batting", "runs", "balls", "strike rate", "score")
+    elif requested_batter and (
+        current_spell_requested
+        or any(
+            term in lowered
+            for term in (
+                "batting",
+                "runs",
+                "balls",
+                "strike rate",
+                "score",
+                "stats",
+            )
+        )
     ):
         answer = (
             f"{requested_batter['batter']}: {requested_batter['runs']} runs from "
