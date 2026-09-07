@@ -1,0 +1,13 @@
+.git
+.github
+node_modules
+tactical-coach-frontend/node_modules
+tactical-coach-frontend/dist
+tactical_coach_agent/.env
+tactical_coach_agent/.venv
+tactical_coach_agent/venv
+tactical_coach_agent/__pycache__
+tactical_coach_agent/.pytest_cache
+__pycache__
+*.pyc
+*.log
