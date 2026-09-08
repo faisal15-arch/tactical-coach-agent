@@ -2808,6 +2808,24 @@ def _live_chat_response(
             answer = f"{toss['winner']} won the toss{decision_text}."
         else:
             answer = "The toss result is not available in the live scorecard yet."
+    elif any(
+        phrase in lowered
+        for phrase in (
+            "man of the match",
+            "man of match",
+            "player of the match",
+            "player of match",
+            "player of the game",
+            "who was player of",
+        )
+    ):
+        awardees = data.get("player_of_match") or []
+        if awardees:
+            answer = "Player of the match: " + ", ".join(awardees) + "."
+        elif not match_finished:
+            answer = "The man of the match is announced after the match result."
+        else:
+            answer = "The player-of-the-match information is not available in the scorecard yet."
     elif "confidence" in lowered:
         if requested_bowler:
             bowler = requested_bowler["bowler"]

@@ -298,6 +298,39 @@ def _normalise_live_situation(scorecard: dict[str, Any]) -> dict[str, Any]:
             toss_winner = toss_match.group(1).strip()
             toss_decision = toss_decision or toss_match.group(2).lower()
 
+    player_of_match = []
+    award_keys = {
+        "playerofthematch",
+        "playerofmatch",
+        "manofthematch",
+    }
+
+    def collect_award_names(value: Any, key: str = "") -> None:
+        normalized_key = re.sub(r"[^a-z]", "", key.lower())
+        if normalized_key in award_keys:
+            values = value if isinstance(value, list) else [value]
+            for item in values:
+                if isinstance(item, str) and item.strip():
+                    player_of_match.append(item.strip())
+                elif isinstance(item, dict):
+                    name = (
+                        item.get("name")
+                        or item.get("playerName")
+                        or item.get("batName")
+                    )
+                    if name:
+                        player_of_match.append(str(name).strip())
+            return
+        if isinstance(value, dict):
+            for child_key, child_value in value.items():
+                collect_award_names(child_value, str(child_key))
+        elif isinstance(value, list):
+            for child_value in value:
+                collect_award_names(child_value, key)
+
+    collect_award_names(scorecard)
+    player_of_match = list(dict.fromkeys(player_of_match))
+
     innings_scores = []
     for innings in innings_list:
         innings_score = innings.get("scoreDetails") or {}
@@ -400,6 +433,7 @@ def _normalise_live_situation(scorecard: dict[str, Any]) -> dict[str, Any]:
             "winner": toss_winner,
             "decision": toss_decision,
         } if toss_winner else None,
+        "player_of_match": player_of_match,
         "state": header.get("state"),
         "series_name": header.get("seriesName") or header.get("seriesDesc"),
         "series_id": header.get("seriesId"),
