@@ -284,6 +284,20 @@ def _normalise_live_situation(scorecard: dict[str, Any]) -> dict[str, Any]:
     match_format = header.get("matchFormat")
     overs_limit = _overs_limit(match_format)
 
+    toss = header.get("toss") or header.get("tossInfo") or {}
+    toss_winner = toss.get("winner") or toss.get("tossWinner")
+    toss_decision = toss.get("decision") or toss.get("tossDecision")
+    status = str(header.get("status") or scorecard.get("status") or "")
+    if not toss_winner:
+        toss_match = re.search(
+            r"^(.+?)\s+opt(?:ed)?\s+to\s+(bat|bowl)\b",
+            status,
+            re.IGNORECASE,
+        )
+        if toss_match:
+            toss_winner = toss_match.group(1).strip()
+            toss_decision = toss_decision or toss_match.group(2).lower()
+
     innings_scores = []
     for innings in innings_list:
         innings_score = innings.get("scoreDetails") or {}
@@ -381,7 +395,11 @@ def _normalise_live_situation(scorecard: dict[str, Any]) -> dict[str, Any]:
     return {
         "match_id": header.get("matchId"),
         "format": match_format,
-        "match_status": header.get("status") or scorecard.get("status"),
+        "match_status": status,
+        "toss": {
+            "winner": toss_winner,
+            "decision": toss_decision,
+        } if toss_winner else None,
         "state": header.get("state"),
         "series_name": header.get("seriesName") or header.get("seriesDesc"),
         "series_id": header.get("seriesId"),

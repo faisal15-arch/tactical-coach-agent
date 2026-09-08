@@ -2790,6 +2790,24 @@ def _live_chat_response(
                 )
         else:
             answer = "There are not enough completed live overs to calculate momentum yet."
+    elif any(
+        phrase in lowered
+        for phrase in (
+            "who won the toss",
+            "who win the toss",
+            "who won toss",
+            "toss winner",
+            "toss decision",
+            "what happened at the toss",
+        )
+    ) or lowered.strip() == "toss":
+        toss = data.get("toss") or {}
+        if toss.get("winner"):
+            decision = toss.get("decision")
+            decision_text = f" and chose to {decision}" if decision else ""
+            answer = f"{toss['winner']} won the toss{decision_text}."
+        else:
+            answer = "The toss result is not available in the live scorecard yet."
     elif "confidence" in lowered:
         if requested_bowler:
             bowler = requested_bowler["bowler"]

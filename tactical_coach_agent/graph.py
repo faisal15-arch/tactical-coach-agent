@@ -1203,6 +1203,8 @@ def classify_live_intent(
 
     if any(phrase in question for phrase in ("go live", "current situation", "back to live")):
         intent = "go_live"
+    elif any(phrase in question for phrase in ("toss", "won the toss", "win the toss")):
+        intent = "match_info"
     elif any(phrase in question for phrase in ("live score", "latest score", "score now")):
         intent = "live_score"
     elif any(phrase in question for phrase in ("line and length", "line-length", "what line", "what length")):
